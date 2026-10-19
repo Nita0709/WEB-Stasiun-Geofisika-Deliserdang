@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stasiun Geofisika Deli Serdang</title>
+<style>
+:root{--bg:#f4f7fb;--surface:#fff;--text:#1b2a3a;--muted:#5b6b7c;--primary:#0b4f8a;--primary-d:#083a66;--accent:#f5a623;--border:#dde5ee;--hero:#0b4f8a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1621;--surface:#162232;--text:#e6edf5;--muted:#9fb0c3;--primary:#5aa9ec;--primary-d:#0b4f8a;--border:#26364a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1621;--surface:#162232;--text:#e6edf5;--muted:#9fb0c3;--primary:#5aa9ec;--primary-d:#0b4f8a;--border:#26364a;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}html,body{background:var(--bg)}
+body{margin:0;color:var(--text);font-family:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:var(--primary);text-decoration:none}.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{background:var(--primary-d);position:sticky;top:env(safe-area-inset-top,0px);z-index:20;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.bar{display:flex;align-items:center;gap:14px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:#fff}
+.logo{width:42px;height:42px;border-radius:50%;background:var(--accent);color:#083a66;display:grid;place-items:center;font-weight:800;font-size:13px}
+.brand b{display:block;font-size:15px;letter-spacing:.5px;line-height:1.1}.brand small{font-size:11px;opacity:.8}
+nav{margin-left:auto}nav>ul{display:flex;list-style:none;margin:0;padding:0;gap:2px}nav li{position:relative}
+nav>ul>li>a{display:block;color:#fff;padding:22px 12px;font-size:14px}nav>ul>li:hover>a{background:rgba(255,255,255,.12)}
+nav ul ul{display:none;position:absolute;left:0;top:100%;min-width:230px;background:var(--surface);border:1px solid var(--border);border-radius:0 0 8px 8px;list-style:none;margin:0;padding:6px 0;box-shadow:0 8px 20px rgba(0,0,0,.18)}
+nav li:hover>ul,nav li:focus-within>ul{display:block}nav ul ul a{display:block;padding:8px 16px;color:var(--text);font-size:14px}nav ul ul a:hover{background:var(--bg);color:var(--primary)}
+.burger{display:none;margin-left:auto;background:none;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:6px;padding:6px 10px;font-size:18px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;margin:24px auto}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px}
+.sec{margin:0 0 14px;font-size:20px;color:var(--primary);padding-left:12px;border-left:4px solid var(--accent)}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+th{background:var(--primary);color:#fff;font-size:12px;text-transform:uppercase}.mag{display:inline-block;background:#d9534f;color:#fff;border-radius:6px;padding:1px 8px;font-weight:700}
+.note{font-size:12px;color:var(--muted);margin:8px 0 0}
+.car{position:relative;border-radius:10px;overflow:hidden}.slides{display:flex;transition:transform .4s}
+.slide{min-width:100%;aspect-ratio:16/6;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;color:#fff}
+.s1{background:linear-gradient(120deg,#083a66,#0e8bd0)}.s2{background:linear-gradient(120deg,#0b4f8a,#f5a623)}.s3{background:linear-gradient(120deg,#0a2f52,#2a9d8f)}
+.slide b{font-size:22px}.slide span{opacity:.9;font-size:14px}
+.cb{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.45);color:#fff;border:0;width:38px;height:38px;border-radius:50%;font-size:18px;cursor:pointer}.cb.p{left:10px}.cb.n{right:10px}
+.lay{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ly{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-align:center;transition:transform .15s,box-shadow .15s}
+.ly:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,.15)}
+.ico{width:60px;height:60px;border-radius:50%;background:var(--primary);display:grid;place-items:center;font-size:28px;margin:0 auto 10px}
+.ly h3{margin:0 0 6px;font-size:16px;color:var(--primary)}.ly p{margin:0;font-size:13px;color:var(--muted)}
+aside .card{padding:16px}aside h3{margin:0 0 10px;font-size:16px;color:var(--primary)}
+.ph{aspect-ratio:4/3;border-radius:8px;background:repeating-linear-gradient(45deg,var(--bg),var(--bg) 10px,var(--border) 10px,var(--border) 20px);display:grid;place-items:center;color:var(--muted);font-size:13px;text-align:center;padding:8px}
+.more{display:block;margin-top:10px;text-align:center;border:1px solid var(--primary);border-radius:6px;padding:6px}
+.news{list-style:none;margin:0;padding:0}.news li{padding:8px 0;border-bottom:1px solid var(--border);font-size:14px}.news li:last-child{border:0}
+footer{background:var(--primary-d);color:#dbe7f3;margin-top:20px;padding:32px 0 16px}.fg{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+footer h3{color:#fff;margin:0 0 8px;font-size:17px}footer ul{list-style:none;padding:0;margin:0}footer li{margin-bottom:6px;font-size:14px}footer a{color:#ffd27a}
+.store{display:flex;gap:8px;margin:6px 0 14px}.store span{border:1px solid #6d8cab;border-radius:6px;padding:4px 12px;font-size:12px}
+.mapph{height:220px;border-radius:10px;background:#0a3258;border:1px dashed #6d8cab;display:grid;place-items:center;font-size:13px;text-align:center;padding:10px}
+.copy{text-align:center;font-size:13px;margin-top:20px;border-top:1px solid rgba(255,255,255,.15);padding-top:12px}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:#25d366;color:#fff;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+@media(max-width:900px){.layout,.fg{grid-template-columns:1fr}.lay{grid-template-columns:1fr 1fr}.burger{display:block}nav{display:none;width:100%;margin:0}nav.open{display:block}nav>ul{flex-direction:column}nav>ul>li>a{padding:12px}
+nav ul ul{display:block;position:static;box-shadow:none;border:0;background:rgba(255,255,255,.08)}nav ul ul a{color:#fff;padding-left:28px}.slide{aspect-ratio:16/9}}
+@media(max-width:520px){.lay{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="brand" href="#"><span class="logo">BMKG</span><span><b>STASIUN GEOFISIKA DELI SERDANG</b><small>STAGEOF DELI SERDANG</small></span></a>
+ <button class="burger" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+ <nav id="nav"><ul>
+  <li><a href="#">Profil</a><ul><li><a href="#">Sejarah</a></li><li><a href="#">Visi &amp; Misi</a></li><li><a href="#">Tugas &amp; Fungsi</a></li><li><a href="#">Struktur Organisasi</a></li></ul></li>
+  <li><a href="#">Informasi Layanan</a><ul><li><a href="#">Standar Pelayanan</a></li></ul></li>
+  <li><a href="#">Informasi Gempabumi Wilayah Sumut</a><ul><li><a href="#">Gempa Bumi Terkini</a></li></ul></li>
+  <li><a href="#">Informasi Petir</a><ul><li><a href="#">Informasi Petir Wilayah Sumut</a></li><li><a href="#">Informasi Petir Bandara Kualanamu</a></li></ul></li>
+  <li><a href="#">Publikasi</a><ul><li><a href="buletin-deli-serdang.html">Buletin Geodinamika</a></li><li><a href="#">Kegiatan</a></li><li><a href="#">Peralatan</a></li><li><a href="#">Sekolah Lapang Gempabumi</a></li><li><a href="#">Youtube</a></li></ul></li>
+ </ul></nav>
+</div></header>
+
+<main class="wrap layout">
+ <div>
+  <section class="card"><h2 class="sec">Gempa Bumi Terkini M5+</h2>
+   <div class="tw"><table><thead><tr><th>Tanggal</th><th>Jam</th><th>Mag</th><th>Kedalaman</th><th>Wilayah</th></tr></thead><tbody id="gempa"></tbody></table></div>
+   <p class="note" id="gnote"></p></section>
+
+  <section class="card"><h2 class="sec">Highlight</h2>
+   <div class="car"><div class="slides" id="slides">
+    <div class="slide s1"><b>Judul highlight 1</b><span>Ganti dengan foto kegiatan / pengumuman</span></div>
+    <div class="slide s2"><b>Judul highlight 2</b><span>Ganti dengan foto kegiatan / pengumuman</span></div>
+    <div class="slide s3"><b>Judul highlight 3</b><span>Ganti dengan foto kegiatan / pengumuman</span></div>
+   </div><button class="cb p" id="prev" aria-label="Previous">‹</button><button class="cb n" id="next" aria-label="Next">›</button></div></section>
+
+  <section class="card"><h2 class="sec">Layanan</h2>
+   <div class="lay">
+    <div class="ly"><div class="ico">🌋</div><h3>Informasi Geofisika</h3><p>Menyediakan informasi kejadian gempa bumi, potensi tsunami, dan kejadian petir</p></div>
+    <div class="ly"><div class="ico">📄</div><h3>Permintaan Data</h3><p>Melayani permintaan data cuaca, data petir, dan kejadian gempa yang lalu.</p></div>
+    <div class="ly"><div class="ico">🕐</div><h3>Informasi Tanda Waktu</h3><p>Menyediakan informasi zona waktu, terbit terbenam matahari, hilal</p></div>
+    <div class="ly"><div class="ico">🎓</div><h3>Praktek Kerja Lapangan</h3><p>Menerima mahasiswa yang ingin melaksanakan PKL sesuai jurusan terkait</p></div>
+    <div class="ly"><div class="ico">🎤</div><h3>Narasumber</h3><p>Melayani permintaan sebagai narasumber sesuai tugas &amp; fungsi BMKG</p></div>
+    <div class="ly"><div class="ico">🏫</div><h3>Kunjungan Sekolah</h3><p>Mengenalkan mitigasi bencana gempabumi dan tsunami kepada siswa sekolah</p></div>
+   </div></section>
+ </div>
+
+ <aside>
+  <div class="card"><h3>ShakeMap Gempa Dirasakan</h3><div class="ph" id="shake">Gambar ShakeMap terbaru<br>(ganti dengan &lt;img&gt;)</div></div>
+  <div class="card"><h3>Press Release / Artikel</h3><ul class="news" id="news"><li><a href="#">Judul artikel / press release 1</a></li><li><a href="#">Judul artikel / press release 2</a></li><li><a href="#">Judul artikel / press release 3</a></li></ul><a class="more" href="#">Show More</a></div>
+  <div class="card"><h3>Indeks Kepuasan Masyarakat</h3><div class="ph" id="ikm">Gambar IKM</div></div>
+ </aside>
+</main>
+
+<footer><div class="wrap">
+ <div class="fg">
+  <div class="mapph">Embed Google Maps Kantor BMKG<br>Stasiun Geofisika Deli Serdang</div>
+  <div>
+   <h3>Stasiun Geofisika Deli Serdang</h3>
+   <ul><li>[Alamat kantor], Deli Serdang, Sumatera Utara</li><li>[email stasiun]@bmkg.go.id</li><li>Telp [nomor telepon]</li></ul>
+   <h3 style="margin-top:14px">Aplikasi Info BMKG</h3><div class="store"><span>Google Play</span><span>App Store</span></div>
+   <h3>Find Us</h3><ul><li><a href="#">WhatsApp</a> · <a href="#">Instagram</a> · <a href="#">Facebook</a> · <a href="#">X</a> · <a href="#">YouTube</a></li></ul>
+  </div>
+ </div>
+ <div class="copy">2026 | Stasiun Geofisika Deli Serdang</div>
+</div></footer>
+<a class="wa" href="#" aria-label="WhatsApp">WA</a>
+
+<script>
+// Gempa M5+: ambil dari API BMKG; jika gagal tampilkan data contoh
+const sample=[["19 Okt 2026","08:12:30 WIB","5.2","10 km","Contoh: Barat Daya Nias Selatan"],["17 Okt 2026","21:45:10 WIB","5.6","35 km","Contoh: Laut Banda"],["15 Okt 2026","03:20:55 WIB","5.1","12 km","Contoh: Selatan Jawa Barat"]];
+function draw(rows,note){document.getElementById("gempa").innerHTML=rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td><span class="mag">${r[2]}</span></td><td>${r[3]}</td><td>${r[4]}</td></tr>`).join("");document.getElementById("gnote").textContent=note}
+fetch("https://data.bmkg.go.id/DataMKG/TEWS/gempaterkini.json").then(r=>r.json()).then(j=>{
+ draw(j.Infogempa.gempa.slice(0,8).map(g=>[g.Tanggal,g.Jam,g.Magnitude,g.Kedalaman,g.Wilayah]),"Sumber: data.bmkg.go.id");
+}).catch(()=>draw(sample,"Data contoh. Di website sendiri, tabel ini otomatis terisi dari data.bmkg.go.id."));
+// Carousel
+let i=0,n=3;const s=document.getElementById("slides");
+function go(k){i=(k+n)%n;s.style.transform=`translateX(-${i*100}%)`}
+document.getElementById("prev").onclick=()=>go(i-1);document.getElementById("next").onclick=()=>go(i+1);
+setInterval(()=>go(i+1),6000);
+// Konten dari admin (content.json). Jika belum ada, placeholder di atas tetap tampil.
+fetch("content.json",{cache:"no-store"}).then(r=>r.json()).then(c=>{
+ const esc=t=>String(t).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+ const img=(p,a)=>`<img src="${esc(p)}" alt="${a}" style="width:100%;border-radius:8px;display:block">`;
+ if(c.highlight&&c.highlight.length){s.innerHTML=c.highlight.map(h=>`<div class="slide" style="background:linear-gradient(transparent 40%,rgba(0,0,0,.7)),url('${esc(h.image)}') center/cover"><b>${esc(h.title)}</b><span>${esc(h.desc||"")}</span></div>`).join("");n=c.highlight.length;go(0)}
+ if(c.artikel&&c.artikel.length)document.getElementById("news").innerHTML=c.artikel.slice(0,5).map(a=>`<li><a href="${esc(a.link||a.file||"#")}">${esc(a.title)}</a></li>`).join("");
+ if(c.shakemap)document.getElementById("shake").innerHTML=img(c.shakemap,"ShakeMap");
+ if(c.ikm)document.getElementById("ikm").innerHTML=img(c.ikm,"IKM");
+}).catch(()=>{});
+</script>
+</body>
+</html>
